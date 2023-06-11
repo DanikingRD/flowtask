@@ -1,25 +1,19 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "flowtask",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "flowtask (profile mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "flowtask (release mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flowtask",
+      "type": "dart",
+      "request": "launch"
+    },
+    {
+      "name": "Flowtask web",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d", "web-server", "--web-port", "8000"]
+    }
+  ]
 }
